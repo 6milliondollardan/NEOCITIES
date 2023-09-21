@@ -1,0 +1,384 @@
+<HTML>
+<HEAD>
+<TITLE>Cashfiesta.com</TITLE>
+<STYLE type=text/css>A:hover {
+	COLOR: #FFCC00
+}
+A {
+	TEXT-DECORATION: none
+}
+BODY {
+	SCROLLBAR-ARROW-COLOR: #FFCC00; SCROLLBAR-TRACK-COLOR: #6600FF; SCROLLBAR-BASE-COLOR: #6666ff; scrollbar-dark-shadow-color: #6666ff
+}
+</STYLE>
+<SCRIPT type=text/javascript>
+
+var _a = "Bienvenido a la Página de Ca$hfiesta en Español...!!!";
+var _l = _a.length;
+while (_a.length < _l * 2) _a += " ";
+var _p = -1;
+function showIt() {
+if (++_p >= _a.length) _p = 0;
+  var _h = _a.substr(0,_p);
+  while (_h.length > _l) _h = _h.substr(1,_h.length);
+  while (_h.length < _l) _h = " "+_h;
+  window.status = _h;
+}
+X = setInterval('showIt()',70);
+</SCRIPT>
+</HEAD>
+<BODY text=#ffffff bottomMargin=0 vLink=#000099 link=#ffcc00 bgColor=#6666ff 
+leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<!-- following code added by server. PLEASE REMOVE -->
+<!-- preceding code added by server. PLEASE REMOVE -->
+<SCRIPT language=JavaScript>
+<!--
+var images='money07.gif';
+var amount=5;       
+var yBase = 150;
+var xBase = 200;
+var step = .2;
+var currStep = 0;
+var Xpos = 5;
+var Ypos = 5;
+var i = 0;
+var j = 0;
+var YgetDelay=0;
+var XgetDelay=0;
+
+if (document.all)
+{
+document.write('<div id="ieDiv" style="position:absolute;top:0px;left:0px">')
+document.write('<div id="c" style="position:relative">');
+for (n=0; n < amount; n++)
+document.write('<img src=" '+images+'" style="position:absolute;top:0px;left:0px">')
+document.write('</div>')
+document.write('</div>')
+
+function MsieMouseFollow(){
+ Xpos = document.body.scrollLeft+event.x-5;
+ Ypos = document.body.scrollTop+event.y-5;
+ }
+ document.onmousemove = MsieMouseFollow;
+}
+else if (document.layers)
+{
+window.captureEvents(Event.MOUSEMOVE);
+for (ns=0; ns < amount; ns++) 
+document.write('<LAYER NAME="n'+ns+'" LEFT=0 TOP=0><IMG SRC="'+images+'"></LAYER>');
+function NsMouseFollow(evnt){
+ Xpos = evnt.pageX-5;
+ Ypos = evnt.pageY-5;
+ }
+ window.onMouseMove = NsMouseFollow;
+}
+function Swirl(){
+if (document.all)
+{
+ yBase = window.document.body.offsetHeight/4;
+ xBase = window.document.body.offsetWidth/4;
+}
+else if (document.layers)
+{
+ yBase = window.innerHeight/4;
+ xBase = window.innerWidth/4;
+}
+
+if (document.all)
+{
+ for (i=0;i<ieDiv.all.c.all.length;i++)
+ {
+  ieDiv.all.c.all[i].style.top = Ydelay + Math.cos((5*Math.sin(currStep/20))+i*70)*yBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + i*25)/10);
+  ieDiv.all.c.all[i].style.left = Xdelay + Math.sin((5*Math.sin(currStep/20))+i*70)*xBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + i*25)/10);
+ }
+}
+else if (document.layers)
+{
+ for ( j = 0 ; j < ns ; j++ ) //7 is number of NS layers!
+ {
+  var temp="n"+j
+  document.layers[temp].top = Ydelay + Math.cos((5*Math.sin(currStep/20))+j*70)*yBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + j*25)/10);
+  document.layers[temp].left = Xdelay + Math.sin((5*Math.sin(currStep/20))+j*70)*xBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + j*25)/10);
+ }
+}
+currStep += step;
+}
+
+function delay(){
+Ydelay = YgetDelay+=(Ypos-YgetDelay)*1/20;
+Xdelay = XgetDelay+=(Xpos-XgetDelay)*1/20;
+Swirl();
+setTimeout('delay()',50);
+}
+delay();
+// -->
+</SCRIPT>
+<TABLE cellSpacing=0 cellPadding=0 border=0 width="780">
+  <TBODY>
+  <TR vAlign=top>
+    <TD width="760">
+      <TABLE cellSpacing=0 cellPadding=0 width=765 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=left width=200 height=115 rowSpan=2>
+          <span style="position: absolute; left: 106; top: 413">
+          <img border="0" src="demo.gif" width="69" height="23"></span><span style="position: absolute; left: -22; top: -4"><img border="0" src="ani_001.gif" width="100" height="72"></span><IMG height=115 
+            src="bghome_1_1.gif" 
+            width=200 border=0></TD>
+          <TD vAlign=top align=left width=35 height=115 rowSpan=2><A 
+            href="http://www.cashfiesta.com/">
+          <IMG height=115 
+            alt="Earn cash money online" 
+            src="bghome_1_2.gif" 
+            width=35 border=0></A></TD>
+          <TD vAlign=center align=middle width=475 bgColor=#ffcc00 height=68>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD>
+                <IMG height=1 
+                  src="s.gif" 
+                  width=475></TD></TR>
+              <TR align=middle>
+                <TD>
+                  <a target="_blank" href="http://www.cashfiesta.com/php/join.php?ref=drvilla">
+                  <img border="0" src="banner_1_468x60.gif" alt="REGISTRATE AQUI...!" width="468" height="60"></a></TD></TR></TBODY></TABLE></TD>
+          <TD vAlign=top align=left width=55 height=68>
+          <IMG height=68 
+            src="bghome_3.gif" 
+            width=55 border=0></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=475 height=47>
+          <IMG height=47 
+            src="bghome_4.gif" 
+            width=475 border=0></TD>
+          <TD vAlign=top align=left width=55 height=47>
+          <IMG height=47 
+            src="bghome_5.gif" 
+            width=55 border=0></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=779 border=0>
+        <TBODY>
+        <TR vAlign=top>
+          <TD align=left width=180><!-- left column -->
+            <TABLE cellSpacing=0 cellPadding=0 width=226 border=0>
+              <TBODY>
+              <TR vAlign=center>
+                <TD align=right width=45 bgColor=#ffcc00 height=35 
+                  rowSpan=2>
+                &nbsp;</TD>
+                <TD colSpan=2 width="181">
+                <IMG height=8 
+                  src="h_left_r01_c08.gif" 
+                  width=127 border=0></TD></TR>
+              <TR vAlign=center>
+                <TD width="20">
+                <IMG height=27 
+                  src="h_left_r02_c08.gif" 
+                  width=20 border=0></TD>
+                <TD width="161">
+                <p align="center">
+                <IMG height=1 
+                  src="s.gif" 
+                  width=4><span style="position: absolute; left: 107; top: 139"><a href="index.htm"><img border="0" src="inicio.gif" width="69" height="23"></a></span></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 border=0 width="226">
+              <TBODY>
+              <TR vAlign=center>
+                <TD align=right width=39 bgColor=#ffcc00 height=33>
+                &nbsp;</TD>
+                <TD width="17">
+                <IMG height=33 
+                  src="h_left_r03_c07.gif" 
+                  width=17 border=0></TD>
+                <TD width="170">
+                <p align="center">
+                <IMG height=1 
+                  src="s.gif" 
+                  width=3><span style="position: absolute; left: 47; top: 175"><a href="paypersurf.htm"><img border="0" src="Que_es_Pay_Per_Surf.gif" width="197" height="23"></a></span></TD></TR>
+              <TR vAlign=center>
+                <TD align=right bgColor=#ffcc00 width="39">
+                &nbsp;</TD>
+                <TD width="17">
+                <IMG height=30 
+                  src="h_left_r04_c07.gif" 
+                  width=17 border=0></TD>
+                <TD width="170">
+                <p align="center">
+                <span style="position: absolute; left: 51; top: 214">
+                <a href="pqcashfiesta.htm">
+                <img border="0" src="porque_Cashfiesta.gif" width="183" height="23"></a></span></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 border=0 width="244" height="29">
+              <TBODY>
+              <TR vAlign=center>
+                <TD align=right width=32 bgColor=#ffcc00 height=29>
+                &nbsp;</TD>
+                <TD width="20" height="29">
+                <IMG height=33 
+                  src="h_left_r05_c06.gif" 
+                  width=20 border=0></TD>
+                <TD width="192" height="29">
+                <p align="center">
+                <IMG height=1 
+                  src="s.gif" 
+                  width=15><span style="position: absolute; left: 72; top: 248"><a href="cuanto.htm"><img border="0" src="Cuanto_Paga.gif" width="137" height="23"></a></span></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 border=0 height="16">
+              <TBODY>
+              <TR vAlign=top align=left>
+                <TD height="16">
+                  <TABLE cellSpacing=0 cellPadding=0 border=0 width="225" height="49">
+                    <TBODY>
+                    <TR vAlign=top align=left>
+                      <TD colSpan=2 width="225" height="18">
+                      <p>
+                      <IMG height=18 
+                        src="h_left_r06_c01.gif" 
+                        width=45 border=0><span style="position: absolute; left: 30; top: 282"><a href="referidos.htm"><img border="0" src="Que_son_los_Referidos.gif" width="217" height="23"></a></span></TD></TR>
+                    <TR vAlign=top align=left>
+                      <TD width=33 height=31>
+                      <IMG height=63 
+                        src="h_left_r07_c01.gif" 
+                        width=33 border=0><BR>
+                      <IMG height=23 
+                        src="h_left_r08_c01.gif" 
+                        width=23 border=0></TD>
+                      <TD align=right width="192" height="31">
+                      <p align="center" style="margin-top: 8">
+                      <span style="position: absolute; left: 84; top: 315">
+                      <a href="incripcion.htm">
+                      <img border="0" src="Inscribirse.gif" width="114" height="23"></a></span></p>
+                      <p align="center" style="margin-top: -12; margin-bottom: 7">
+                      &nbsp;</p>
+                      <p align="center" style="margin-top: 0; margin-bottom: 2">
+                      <span style="position: absolute; left: 83; top: 348">
+                      <a href="descargas.htm">
+                      <img border="0" src="Descargas.gif" width="114" height="23"></a></span><span style="position: absolute; left: 27; top: 382"><a href="mailto:cashfietaespanol@hotmail.com"><img border="0" src="Contacta_Con_Nosotros.gif" alt="E_Mail" width="217" height="23"></a></span><span style="position: absolute; left: 63; top: 317"><img border="0" src="money07.gif" width="19" height="17"></span><span style="position: absolute; left: 198; top: 318"><img border="0" src="money07.gif" width="19" height="17"></span></TD></TR></TBODY></TABLE><span style="position: absolute; left: 6; top: 544">
+                  <a target="_blank" href="http://www.cashfiesta.com/php/join.php?ref=drvilla"><img border="0" src="h_left_r10_c04.gif" width="132" height="40"></a></span><span style="position: absolute; left: 141; top: 536"><a target="_blank" href="http://www.cashfiesta.com/php/join.php?ref=drvilla"><img border="0" src="dolarani.gif" width="95" height="54"></a></span></TD>
+                </TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD heihgt="4">
+                <span style="position: absolute; left: 85; top: 473">
+                <img border="0" src="refer_your_friends.gif" alt="¿QUIERES GANAR DINERO HAZ CLICK EN AL IMAGEN?" width="74" height="56"></span></TD></TR></TBODY></TABLE>
+            </TD>
+          <TD width=439><!-- central column -->
+            <TABLE cellSpacing=0 cellPadding=0 width="526" border=0 height="699">
+              <TBODY>
+              <TR>
+                <TD style="TEXT-ALIGN: justify" width="526" height="699">
+                  <p class="MsoNormal" style="text-align: justify">
+                  <span lang="ES" style="color: white">
+                  <marquee behavior="alternate" direction="right" style="font-size: 24pt; font-weight: bold">Cuánto pagan?</marquee>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang="ES">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  La eterna pregunta, ¿cuánto voy a ganar?. Realmente todo lo 
+                  que le estamos contando está muy bien pero no iba a servir de 
+                  mucho si no decimos que Cashfiesta paga a sus afiliados una 
+                  cantidad más que aceptable por el trabajo que realizan. Porque 
+                  el pago por navegación debe verse así, como un trabajo en el 
+                  que nosotros buscamos afiliados y navegamos con nuestro 
+                  computador (de hecho si se lo toma como un trabajo verá pronto 
+                  sus beneficios).</p>
+                  <p style="text-align: justify">Vamos a explicar primero como 
+                  funciona la barra, en la barra de Cashfiesta aparecé la 
+                  publicidad pero también está toda la información que 
+                  necesitamos sobre nuestra cuenta. Además tenemos un indicador 
+                  en forma de muñequito de un mejicano que nos indica si estamos 
+                  ganando dinero o no (si está caminando es que ganamos dinero). 
+                  Si el mejicano camina entonces ganamos puntos, en una hora de 
+                  actividad de la barra se consiguen 600 puntos.</p>
+                  <p style="text-align: justify">Bien Cashfiesta paga de media 
+                  unos 0,55$ por cada hora navegada. Y por que decimos de 
+                  media?, muy sencillo, porque esta cantidad puede aumentar o 
+                  disminuir según nos subscribamos a sus ofertas especiales. 
+                  Incluso podemos triplicar esa cantidad (1,3$ sólo con 
+                  subscribirnos a 8 ofertas especiales). Además cada vez que nos 
+                  subscribimos a una oferta especial ganamos puntos (entre 
+                  300-15000 puntos) y se pagan de una forma especial a 1$ cada 
+                  1000 puntos. Pongamos algunos ejemplos:</p>
+                  <p style="text-align: justify">
+                  <span style="font-size: 10pt; font-family: Arial">Ejemplo 1: 
+                  nos darán 15000 puntos por subscribirnos a un casino por 
+                  internet, podremos bajarnos su programa para jugar a juegos de 
+                  azar en red y Cashfiesta nos pagará 15 dólares por la 
+                  subscripción aparte de aumentar nuestro ratio de pago por hora 
+                  navegada.</span></p>
+                  <p style="text-align: justify">Pero no todo es subcribirse a 
+                  empresas de este estilo, incluso por darnos de alta en páginas 
+                  webs ganamos puntos.</p>
+                  <p style="text-align: justify">
+                  <span style="font-size: 10pt; font-family: Arial">Ejemplo 2: 
+                  Por darnos de alta en el sitio de juegos (ajedrez, cartas, 
+                  arcade...) de lycos ganaremos 300 puntos y sumaremos una 
+                  oferta especial más con lo que aumentaremos nuestro ratio de 
+                  pago por hora navegada.</span></p>
+                  <p style="text-align: justify">Suele haber unas 35-40 ofertas 
+                  especiales en su web por lo tanto es muy fácil encontrar 
+                  alguna que nos convenga.<span lang="ES" style="font-size: 1pt">&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                  </span></p>
+                  <table id="AutoNumber1" style="border-collapse: collapse" borderColor="#111111" cellSpacing="0" cellPadding="0" width="46%" border="1">
+                    <tr>
+                      <td width="100%">
+                      <img border="0" src="graph_new.gif" width="545" height="253"></td>
+                    </tr>
+                  </table>
+                  <p class="MsoNormal" style="text-align: justify">
+                  <span lang="ES">Bien ahora ya sabemos lo que vamos a ganar por 
+                  nosotros mismos, pero también debemos recordar que nos vamos a 
+                  llevar un porcentaje de las ganancias totales de nuestros 
+                  recomendados y de los recomendados de nuestros recomendados y 
+                  así hasta 8 niveles. Quizás no se de cuenta del potencial que 
+                  tiene esto, pero hacerse una buena red de afiliados es la 
+                  garantía definitiva para sacarse un buen dinero al mes y sin 
+                  que usted tenga que navegar demasiado. Para intentar 
+                  clarificarlo pongamos un pequeño ejemplo.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+                  <div align="left">
+                    <b>
+                    <a href="referidos.htm">Que son los referidos?</a></b></div>
+                  <p>&nbsp;</p>
+                  </TD></TR></TBODY></TABLE>
+                     </TD><!-- spacer -->
+          <!-- spacer -->
+          </TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=780 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=center align=middle width=780><FONT class=txt face="Arial">
+            <font size="2" color="#FFFFFF"><b><font color="#FF3333">
+            <a style="text-decoration: none" href="index.htm">Inicio</a></font></b></font><font size="2"> 
+            | <font color="#FFFFFF"><b><font color="#3399FF">
+            <a href="paypersurf.htm">Que 
+    es Pay Per Surf?</a></font></b></font> | </font><font color="#FFFFFF"><b>
+            <font size="2" color="#00CCFF">
+            <a style="text-decoration: none" href="pqcashfiesta.htm">Porque 
+    Cashfiesta?</a></font></b></font><font size="2" color="#FFCC00"> </font>
+            <font size="2"> 
+            <BR></font><font color="#FFFFFF"><b><font size="2" color="#66CCFF">
+            <a style="text-decoration: none" href="cuanto.htm">Cu&aacute;nto 
+    Paga?</a></font></b></font><font size="2"> | </font><font color="#CCFFFF"><b>
+            <font size="2">
+            <a style="text-decoration: none" href="referidos.htm">Que 
+    son los Referidos?</a></font></b></font><font size="2"> 
+            | </font><font color="#FFFFFF"><b><font size="2" color="#0099FF">
+            <a style="text-decoration: none" href="incripcion.htm">Inscribirse</a></font></b></font><font size="2"> |
+            </font><font color="#FFFFFF"><b><font size="2" color="#3399FF">
+            <a style="text-decoration: none" href="descargas.htm">Descargas</a></font></b></font><font size="2"> |
+            </font><b><font size="2" color="#FF0033">
+            <a href="mailto:cashfietaespanol@hotmail.com">Contacta 
+        Con Nosotros</a></font></b></FONT></TD></TR>
+        <TR>
+          <TD height=10 width="780"></TD></TR>
+        <TR>
+          <TD vAlign=center align=middle width="780"><SPAN class=form_v1>
+          ©&nbsp;Copyright 2004</SPAN></TD></TR></TBODY></TABLE></TD>
+         </TR>
+     </TBODY>
+     </TABLE>
+     </BODY>
+     </HTML><!-- text below generated by server. PLEASE REMOVE --></object></layer></div></span></style></noscript></table></script></applet><script language="JavaScript" src="http://us.i1.yimg.com/us.yimg.com/i/mc/mc.js"></script><script language="JavaScript" src="http://us.js2.yimg.com/us.js.yimg.com/lib/smb/js/hosting/cp/js_source/geov2_001.js"></script><script language="javascript">geovisit();</script><noscript><img src="http://visit.geocities.yahoo.com/visit.gif?es1248433499" alt="setstats" border="0" width="1" height="1"></noscript>
+<IMG SRC="http://geo.yahoo.com/serv?s=382026067&t=1248433499&f=es-w5" ALT=1 WIDTH=1 HEIGHT=1>
