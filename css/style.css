@@ -2,6 +2,7 @@
 @import url("../webfonts/Dollar_Bill/stylesheet.css");
 /* CSS Document */
 
+/* MAIN LAYOUT STYLING */
 .main-layout {
 	width: 900px;
 	min-height: 500px;
@@ -9,14 +10,34 @@
 	margin-left: auto;
 }
 
+.section{
+	width: 850px;
+	align-content: center;
+	margin: auto;
+	justify-content: center;
+  display: grid; 
+  grid-template-columns: 210px 150px 150px 150px 150px; 
+  grid-template-rows: 180px 180px 180px 180px 88px; 
+  gap: 0px 10px; 
+}
+
+/* ^ The 88px row is for the footer and the 210px column is for the about section. */
+
+.header{
+	background-image: url(../images/header-normal.png);
+	width: 1000px;
+	min-height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	background-size: contain;
+	background-position: relative;
+	background-repeat: no-repeat;
+}
 
 .left, .middle, .right {
-	position: relative;
 	margin: 5px;
 	height: 100%;
 	padding: 5px;
-	
-  
 }
 
 .left{
@@ -33,30 +54,6 @@
 	grid-area: 1 / 2 / 6 / 5;
 }
 
-
-.section{
-	width: 850px;
-	align-content: center;
-	margin: auto;
-	justify-content: center;
-  display: grid; 
-  grid-template-columns: 210px 150px 150px 150px 150px; 
-  grid-template-rows: 180px 180px 180px 180px 88px; 
-  gap: 0px 10px; 
-	
-}
-
-.header{
-	background-image: url(../images/header-normal.png);
-	width: 1000px;
-	min-height: 450px;
-	margin-right: auto;
-	margin-left: auto;
-	background-size: contain;
-	background-position: relative;
-	background-repeat: no-repeat;
-}
-
 .a{
 	margin: 0px;
 	padding: 0px;
@@ -66,18 +63,14 @@
 
 }
 
-h1{
-	font-family: "Dollar Bill";
+.text{
+	position: relative;
+	top: 44.4px;
+	left: 320px;
+  font-family: "Dollar Bill", serif;
 	color: #E4E6CB;
 	size: 57pt;
 	font-size: 24px;
-}
-
-
-.text{
-	position: relative;
-	top: 42px;
-	left: 320px;
 }
 
 a.headlink{
