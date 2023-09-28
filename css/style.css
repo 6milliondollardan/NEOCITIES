@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url("../webfonts/Dollar_Bill/stylesheet.css");
+@import url("../webfonts/Pixel-Times/stylesheet.css");
 /* CSS Document */
 
 /* MAIN LAYOUT STYLING */
@@ -21,6 +22,13 @@
   gap: 0px 10px; 
 }
 
+p{
+  font-family: "Pixelated-TNR", serif;
+}
+
+li{
+  font-family: "Pixelated-TNR", serif;
+}
 /* ^ The 88px row is for the footer and the 210px column is for the about section. */
 
 .header{
