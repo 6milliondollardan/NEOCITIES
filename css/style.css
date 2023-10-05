@@ -1,7 +1,9 @@
 @charset "utf-8";
 @import url("../webfonts/Dollar_Bill/stylesheet.css");
 @import url("../webfonts/Pixel-Times/stylesheet.css");
+@import url("../webfonts/Pixel-Times-Light/stylesheet.css");
 /* CSS Document */
+
 
 /* MAIN LAYOUT STYLING */
 .main-layout {
@@ -24,9 +26,14 @@
 
 p{
   font-family: "Pixelated-TNR-Light", serif;
+  size: 12pt;
 }
 
 li{
+  font-family: "Pixelated-TNR-Light", serif;
+}
+
+h1{
   font-family: "Pixelated-TNR", serif;
 }
 /* ^ The 88px row is for the footer and the 210px column is for the about section. */
